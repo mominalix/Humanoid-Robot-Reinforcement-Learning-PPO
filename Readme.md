@@ -2,6 +2,8 @@
 
 This repository contains a project that utilizes a reinforcement learning algorithm to make a humanoid robot walk in a PyBullet simulation. The project is structured into multiple Python files and uses a provided URDF file for the humanoid robot. The training process prints the reward for every generation and performs a PyBullet simulation of every Nth generation. The simulation animates the model and waits until it falls before it ends.
 
+![simulation video](Simulation.gif)
+
 ## Project Structure
 
 - `train.py`: Main script to train the humanoid robot.
